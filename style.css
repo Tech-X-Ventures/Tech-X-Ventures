@@ -1066,485 +1066,80 @@ nav {
 
 @media (max-width: 900px) {
   .page-wrapper {
-    padding: 20px 24px;
-    overflow-x: hidden;
-  }
-
-  .navbar {
-    margin-bottom: 36px;
-    position: relative;
-    z-index: 100;
-  }
-
-  .brand-text {
-    font-size: 17px;
-    letter-spacing: 0.3px;
+    padding: 24px 28px;
   }
 
   .hero-section {
     grid-template-columns: 1fr;
-    margin-top: 10px;
-    margin-bottom: 70px;
-    gap: 36px;
-    min-height: auto;
-  }
-
-  .hero-left {
-    max-width: 100%;
-  }
-
-  .badge-pill {
-    margin-bottom: 22px;
-    font-size: 12px;
-    padding: 6px 14px;
-  }
-
-  .hero-title {
-    font-size: 44px;
-    line-height: 1.12;
-    letter-spacing: -0.8px;
-    margin-bottom: 18px;
-    word-break: break-word;
-  }
-
-  .hero-description {
-    font-size: 14px;
-    line-height: 1.6;
-    margin-bottom: 26px;
-    max-width: 100%;
-  }
-
-  .hero-action {
-    width: 100%;
-  }
-
-  .hero-action .btn-primary {
-    width: 100%;
-    text-align: center;
+    margin-top: 20px;
+    gap: 50px;
   }
 
   .cosmic-portal-container {
     position: relative;
     top: 0;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 320px;
-    height: 320px;
-    margin: 24px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    height: 360px;
+    margin: 20px auto;
+  }
+
+  .hero-title {
+    font-size: 42px;
   }
 
   .hero-right {
     padding-left: 0;
-    width: 100%;
-  }
-
-  .stat-item {
-    margin-bottom: 24px;
-  }
-
-  .stat-number {
-    font-size: 42px;
-  }
-
-  .stat-label {
-    font-size: 13px;
-  }
-
-  .glass-info-card {
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .content-section {
-    padding: 55px 0;
-  }
-
-  .section-heading {
-    font-size: 32px;
-    line-height: 1.25;
-    margin-bottom: 24px;
-    word-break: break-word;
   }
 
   .section-split,
   .cards-duo,
   .projects-showcase {
     grid-template-columns: 1fr;
-    gap: 24px;
   }
 
   .menu-toggle {
     display: flex;
-    z-index: 1001;
-    padding: 8px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 101;
   }
 
   nav {
     position: fixed;
     top: 0;
     right: -100%;
-    width: min(300px, 82vw);
+    width: 270px;
     height: 100vh;
-    height: 100dvh;
-    background: rgba(4, 9, 22, 0.96);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: #050917;
     flex-direction: column;
-    padding: 95px 24px 36px 24px;
-    align-items: stretch;
-    gap: 12px;
-    border-left: 1px solid rgba(0, 140, 255, 0.25);
-    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.7);
-    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-    z-index: 1000;
+    padding: 90px 30px;
+    align-items: flex-start;
+    gap: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    transition: right 0.3s ease;
+    z-index: 100;
   }
 
   nav.active {
     right: 0;
   }
-
-  nav a {
-    width: 100%;
-    text-align: center;
-    padding: 12px 18px;
-    border-radius: 10px;
-    display: block;
-    box-sizing: border-box;
-  }
-
-  nav .hire-btn {
-    margin-left: 0;
-    margin-top: 10px;
-    background: linear-gradient(135deg, #ffffff 0%, #dbeafe 100%);
-  }
-
-  .tech-category {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    padding: 16px 18px;
-  }
-
-  .category-header {
-    min-width: unset;
-    width: 100%;
-  }
-
-  .roadmap-table-header {
-    grid-template-columns: 60px 1fr;
-    padding: 12px 16px;
-    font-size: 11px;
-  }
-
-  .roadmap-row {
-    grid-template-columns: 60px 1fr;
-    padding: 14px 16px;
-    gap: 8px;
-  }
-
-  .stage-tag {
-    font-size: 13px;
-  }
-
-  .stage-desc {
-    font-size: 13px;
-  }
-
-  .collab-hero {
-    padding: 32px 22px;
-  }
 }
 
-@media (max-width: 600px) {
-  .page-wrapper {
-    padding: 16px 16px;
-  }
-
-  .grid-lines {
-    width: 94%;
-  }
-
-  .brand-logo {
-    width: 30px;
-    height: 30px;
-  }
-
-  .brand-text {
-    font-size: 15px;
-    letter-spacing: 0.2px;
-  }
-
-  .hero-section {
-    margin-top: 5px;
-    margin-bottom: 50px;
-    gap: 28px;
-  }
-
-  .badge-pill {
-    padding: 5px 12px;
-    font-size: 11px;
-    gap: 6px;
-    margin-bottom: 18px;
-  }
-
+@media (max-width: 480px) {
   .hero-title {
-    font-size: 34px;
-    letter-spacing: -0.5px;
-    line-height: 1.15;
-    margin-bottom: 16px;
-  }
-
-  .hero-description {
-    font-size: 13.5px;
-    line-height: 1.55;
-    margin-bottom: 22px;
-  }
-
-  .btn-primary {
-    font-size: 13px;
-    padding: 12px 20px;
-  }
-
-  .cosmic-portal-container {
-    width: 260px;
-    height: 260px;
-    margin: 15px auto;
-  }
-
-  .portal-halo {
-    inset: -60px;
-    filter: blur(45px);
-  }
-
-  .portal-ring {
-    inset: 28px;
-    border-width: 3px;
-  }
-
-  .portal-core {
-    inset: 33px;
-  }
-
-  .ring-flare {
-    top: 10px;
-    left: 35px;
-    width: 35px;
-    height: 18px;
-  }
-
-  .stat-item {
-    margin-bottom: 20px;
-  }
-
-  .stat-number {
-    font-size: 36px;
-  }
-
-  .stat-label {
-    font-size: 12px;
-  }
-
-  .content-section {
-    padding: 42px 0;
-  }
-
-  .section-tag {
-    font-size: 11px;
-    letter-spacing: 1px;
-    margin-bottom: 12px;
+    font-size: 32px;
   }
 
   .section-heading {
-    font-size: 26px;
-    letter-spacing: -0.4px;
-    line-height: 1.25;
-    margin-bottom: 20px;
-  }
-
-  .body-lead {
-    font-size: 14.5px;
-    line-height: 1.6;
-    margin-bottom: 12px;
-  }
-
-  .body-sub {
-    font-size: 13px;
-    line-height: 1.6;
-  }
-
-  .philosophy-box {
-    padding: 14px 18px;
-    margin-top: 18px;
-  }
-
-  .philosophy-text {
-    font-size: 13.5px;
-  }
-
-  .glow-box {
-    padding: 22px 18px;
-    border-radius: 14px;
-  }
-
-  .glow-box h3 {
-    font-size: 18px;
-  }
-
-  .glow-box p {
-    font-size: 13px;
-    line-height: 1.6;
-  }
-
-  .focus-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .focus-card {
-    padding: 20px 18px;
-  }
-
-  .tech-category {
-    padding: 14px 16px;
-  }
-
-  .tags-cloud {
-    gap: 8px;
-  }
-
-  .tag {
-    font-size: 11.5px;
-    padding: 5px 11px;
-  }
-
-  .tech-footnote {
-    font-size: 11.5px;
-    margin-top: 16px;
-  }
-
-  .project-box {
-    padding: 24px 18px;
-    border-radius: 14px;
-  }
-
-  .project-title-row h3 {
-    font-size: 21px;
-  }
-
-  .project-summary {
-    font-size: 13px;
-    margin-bottom: 16px;
-  }
-
-  .project-detail-box {
-    padding: 16px 14px;
-    margin-bottom: 20px;
-  }
-
-  .project-detail-box p {
-    font-size: 12.5px;
-  }
-
-  .link-btn {
-    width: 100%;
-    justify-content: center;
-    box-sizing: border-box;
-    font-size: 13px;
-    padding: 10px 16px;
-  }
-
-  .approach-list {
-    gap: 10px;
-  }
-
-  .approach-list li {
-    font-size: 13px;
-    align-items: flex-start;
-  }
-
-  .roadmap-table-header {
-    grid-template-columns: 50px 1fr;
-    padding: 10px 14px;
-  }
-
-  .roadmap-row {
-    grid-template-columns: 50px 1fr;
-    padding: 12px 14px;
-  }
-
-  .stage-tag {
-    font-size: 12px;
-  }
-
-  .stage-desc {
-    font-size: 12.5px;
-  }
-
-  .collab-hero {
-    padding: 26px 16px;
-    border-radius: 16px;
-  }
-
-  .collab-actions-list {
-    flex-direction: column;
-    gap: 8px;
-    margin: 18px 0 26px 0;
-  }
-
-  .collab-chip {
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 12px;
-    padding: 8px 14px;
-  }
-
-  .contact-links-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .contact-card {
-    padding: 14px 16px;
-  }
-
-  .footer {
-    margin-top: 40px;
-    padding-top: 30px;
-  }
-
-  .footer-brand {
-    font-size: 16px;
-  }
-
-  .footer-motto {
-    font-size: 11px;
-  }
-
-  .footer-submotto {
-    font-size: 12px;
-    margin-bottom: 18px;
-  }
-}
-
-@media (max-width: 360px) {
-  .hero-title {
-    font-size: 29px;
-  }
-
-  .section-heading {
-    font-size: 23px;
+    font-size: 28px;
   }
 
   .cosmic-portal-container {
-    width: 220px;
-    height: 220px;
+    width: 280px;
+    height: 280px;
   }
 
   .stat-number {
-    font-size: 30px;
+    font-size: 38px;
   }
 }
