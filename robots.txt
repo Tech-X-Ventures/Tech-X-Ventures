@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tech-x-ventures.github.io/Tech-X-Ventures/sitemap.xml
