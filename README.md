@@ -13,6 +13,8 @@ Building intelligent systems, innovative software, and next-generation digital p
 [![Organization](https://img.shields.io/badge/GitHub-Tech--X--Ventures-181717?style=for-the-badge&logo=github)](https://github.com/Tech-X-Ventures)
 ![Focus](https://img.shields.io/badge/Focus-AI%20%26%20Technology-126BFF?style=for-the-badge)
 ![Innovation](https://img.shields.io/badge/Mindset-Innovation-00C8FF?style=for-the-badge)
+[![Lighthouse SEO](https://img.shields.io/badge/Lighthouse_SEO-100%25-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftech-x-ventures.github.io%2FTech-X-Ventures%2F)
+[![Lighthouse Performance](https://img.shields.io/badge/Performance-100%25-00e1ff?style=for-the-badge)](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Ftech-x-ventures.github.io%2FTech-X-Ventures%2F)
 
 </div>
 

@@ -1041,6 +1041,52 @@ nav {
   margin-bottom: 20px;
 }
 
+/* ---------------- SCORE BADGES ---------------- */
+.score-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.badge-item {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(8, 18, 42, 0.7);
+  border: 1px solid rgba(0, 180, 255, 0.25);
+  border-radius: 9999px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.badge-item:hover {
+  border-color: var(--neon-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 150, 255, 0.25);
+}
+
+.badge-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #9cb2cf;
+  padding: 5px 10px 5px 12px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.badge-value {
+  font-size: 11px;
+  font-weight: 800;
+  color: #050b18;
+  background: linear-gradient(135deg, #00e1ff 0%, #10b981 100%);
+  padding: 5px 12px;
+  letter-spacing: 0.3px;
+}
+
 .copyright {
   font-size: 12px;
   color: #64748b;
