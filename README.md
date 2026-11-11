@@ -90,15 +90,34 @@ Our selected technology ecosystem includes:
 
 ## 🏗️ Our Products & Projects
 
-### 1. Pocket
+### 1. KioskShield
+
+**Air-gapped, zero-network private document intelligence and automated redaction engine.**
+
+Designed for legal desks, accounting firms, and municipal offices to analyze sensitive records with 100% offline data sovereignty.
+
+- **100% Offline Local Processing:** Operates without network access; zero data leaves the physical device.
+- **Embedded Local OCR:** Layout-aware document parsing via Surya OCR & Tesseract.
+- **Visual Coordinate Citations:** Proof-anchored answers highlighting the exact text bounding box on original PDF pages.
+- **Automated PII Redaction:** Deterministic redaction of private identifiers prior to export.
+
+[![KioskShield Repository](https://img.shields.io/badge/Explore-KioskShield-126BFF?style=for-the-badge&logo=github)](https://github.com/Tech-X-Ventures/KioskShield)
+
+<sub>Status: In active architecture and initial development.</sub>
+
+### 2. Pocket
 
 **A digital product initiative by Tech-X-Ventures.**
 
-Explore the project repository:
+Modern expense tracker and client-side financial management dashboard designed for accessibility, velocity, and privacy.
 
-[![Pocket Repository](https://img.shields.io/badge/Explore-Pocket-126BFF?style=for-the-badge&logo=github)](https://github.com/Tech-X-Ventures/pocket)
+- **Client-Side Financial Analytics:** FinTelemetry engine running in-browser with zero third-party data tracking.
+- **Multi-Wallet & Subscription Tracking:** Real-time visibility into recurring charges and cash flow.
+- **Local-First Encrypted Storage:** Retain total ownership of personal transaction records.
 
-<sub>Status: Project repository created. Further product details to be announced.</sub>
+[![Pocket Repository](https://img.shields.io/badge/Explore-Pocket-00C8FF?style=for-the-badge&logo=github)](https://github.com/Tech-X-Ventures/pocket)
+
+<sub>Status: Project repository created. Fintech dashboard core in development.</sub>
 
 ## 🔬 Innovation & Development
 
